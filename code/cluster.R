@@ -166,11 +166,6 @@ CategorialCluster = function(mat)
             S = Set[ind,]
             US = UofS(S,mat)
             tmp = choose.r.M(p,US,UHD)
-#             if (tmp[[2]]<minP)
-#             {
-#                 minP = tmp[[2]]
-#                 C = S
-#             }
             if (tmp[1]>maxStat)
             {
                 maxStat = tmp[1]
